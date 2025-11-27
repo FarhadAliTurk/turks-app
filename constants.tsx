@@ -2,6 +2,9 @@ import { LibraryItem, EventItem, GalleryItem, HistoryItem, PopulationData } from
 import React from 'react';
 import { Book, Users, MapPin, Calendar, Image as ImageIcon, History } from 'lucide-react';
 
+export const SUPABASE_URL = 'https://cfqdscztufknxxjonece.supabase.co';
+export const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNmcWRzY3p0dWZrbnh4am9uZWNlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQxNzU4NTUsImV4cCI6MjA3OTc1MTg1NX0.sCarg3V8CsG2EuRQ4IhP19JaE3LABw8bsRTsMrzinvM';
+
 export const ADMIN_EMAILS = [
   '369farhadali@gmail.com',
   'farhadaliturkofficial@gmail.com'
